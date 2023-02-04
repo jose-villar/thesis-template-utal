@@ -1,0 +1,43 @@
+from: markdown
+to: pdf
+
+standalone: true
+self-contained: false
+
+variables:
+  documentclass: report
+  fontsize: 12pt
+
+metadata:
+  lang: es-CL
+  pagestyle: headings
+  author: Autor
+  supervisor: Supervisor
+  co-supervisor1: Informante 1
+  co-supervisor2: Informante 2
+  date: \today
+  # linkcolor: blue
+  indent: true
+  whitespace: big
+  lof: true
+  lot: true
+  eqnos-plus-name: Ec.
+  secnos-plus-name: Sec.
+  tablenos-plus-name: Cuadro
+  fignos-plus-name: Fig.
+  eqnos-warning-level: 0
+  secnos-warning-level: 0
+  tablenos-warning-level: 0
+  fignos-warning-level: 0
+  eqnos-number-by-section: true
+  title:
+  - Título
+
+indented-code-classes: [numberLines]
+table-of-contents: true
+number-sections: true
+toc-depth: 3
+highlight-style: pygments
+bibliography: bibliography.bib
+template: template.tex
+csl: ieee.csl
